@@ -1,20 +1,19 @@
 package com.example.expense_tracker.mapper;
 
-import com.example.expense_tracker.dto.CategoryDto;
+import com.example.expense_tracker.dto.AddCategoryRequest;
 import com.example.expense_tracker.entity.Category;
 
 public class CategoryMapper {
 
-    public static Category mapToCategory(CategoryDto dto) {
+    public static Category mapToCategory(AddCategoryRequest request) {
         return new Category(
-                dto.id(),
-                dto.name()
+                null,
+                request.name()
         );
     }
 
-    public static CategoryDto mapToCategory(Category category) {
-        return new CategoryDto(
-                category.getId(),
+    public static AddCategoryRequest mapToAddCategoryRequest(Category category) {
+        return new AddCategoryRequest(
                 category.getName()
         );
     }
