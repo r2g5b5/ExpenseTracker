@@ -1,4 +1,4 @@
-package com.example.expense_tracker.dto;
+package com.example.expense_tracker.dto.category;
 
 import com.example.expense_tracker.entity.Category;
 import jakarta.validation.constraints.NotNull;

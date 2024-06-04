@@ -1,8 +1,8 @@
 package com.example.expense_tracker.service.impl;
 
-import com.example.expense_tracker.dto.AddCategoryRequest;
-import com.example.expense_tracker.dto.GetCategoryResponse;
-import com.example.expense_tracker.dto.UpdateCategoryRequest;
+import com.example.expense_tracker.dto.category.AddCategoryRequest;
+import com.example.expense_tracker.dto.category.GetCategoryResponse;
+import com.example.expense_tracker.dto.category.UpdateCategoryRequest;
 import com.example.expense_tracker.entity.Category;
 import com.example.expense_tracker.repository.CategoryRepository;
 import com.example.expense_tracker.service.CategoryService;
